@@ -36,23 +36,29 @@ Methodologies: Agile | Scrum | Test-Driven Development
 
 ## 🌟 Featured Projects
 
-### [Project Name 1]
-*[Brief description of what the project does and the technology used]*
-- **Tech Stack:** [Technologies used]
-- **Impact:** [Business impact or key achievements]
-- 🔗 [Link to project/demo]
+### portfolio
 
-### [Project Name 2]
-*[Brief description of what the project does and the technology used]*
-- **Tech Stack:** [Technologies used]
-- **Impact:** [Business impact or key achievements]
-- 🔗 [Link to project/demo]
+*Professional Portfolio Website*
 
-### [Project Name 3]
-*[Brief description of what the project does and the technology used]*
-- **Tech Stack:** [Technologies used]
-- **Impact:** [Business impact or key achievements]
-- 🔗 [Link to project/demo]
+- **Tech Stack:** React.js, JavaScript, Modern UI/UX
+- **Impact:** Showcases client projects & technical expertise
+- 🔗 [https://github.com/salil1993/portfolio](https://github.com/salil1993/portfolio)
+
+### PlansAround
+
+*Event Planning & Social Platform*
+
+- **Tech Stack:** React Native, Stripe, Google Auth, Location, Notifications
+- **Impact:** End-to-end mobile event planning app
+- 🔗 [https://github.com/salil1993/PlansAround](https://github.com/salil1993/PlansAround)
+
+### BackendCRUD
+
+*RESTful API Demo*
+
+- **Tech Stack:** Node.js, Express.js, MySQL
+- **Impact:** Demonstrates API and backend skills
+- 🔗 [https://github.com/salil1993/BackendCRUD](https://github.com/salil1993/BackendCRUD)
 
 ## 📊 GitHub Stats
 
@@ -63,9 +69,8 @@ Methodologies: Agile | Scrum | Test-Driven Development
 **I'm available for consulting and freelance projects!**
 
 - 💼 LinkedIn: [linkedin.com/in/saliljha1993](https://www.linkedin.com/in/saliljha1993/)
-- 📧 Email: [your.email@example.com]
-- 🌐 Portfolio: [your-portfolio-url.com]
-- 📱 Phone/WhatsApp: [+XX XXX XXX XXXX]
+- 📧 Email: [saliljha1993@gmail.com](mailto:saliljha1993@gmail.com)
+- 📱 Phone/WhatsApp: +917903498207
 
 ---
 
