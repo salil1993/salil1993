@@ -1,91 +1,42 @@
-# 👋 Welcome to My GitHub Profile
+# Hi, I'm Salil – Senior Mobile Engineer
 
-## 🚀 About Me
+Senior Mobile Engineer with 7+ years building production Android and React Native apps in fintech, crypto and consumer domains. I design, ship and maintain scalable mobile systems end-to-end – from architecture and APIs to polished UX and app-store releases.
 
-I'm a **Full-Stack Mobile & Web Developer** with deep expertise in building robust, scalable applications that drive business results. I specialize in creating seamless cross-platform experiences that delight users and solve real-world problems.
-
-## 💼 Core Expertise
-
-- **Mobile Development:** React Native, iOS (Swift), Android (Java/Kotlin)
-- **Web Development:** JavaScript, React, Node.js
-- **Backend:** RESTful APIs, Database Design, Cloud Services
-- **UI/UX:** Modern, intuitive interfaces with focus on user experience
-- **Project Management:** Agile methodologies, Client collaboration
-
-## 🛠️ Technical Skills
-
-```
-Languages:     JavaScript | Java | Swift | Kotlin | Python
-Frameworks:    React Native | React.js | Node.js | Express
-Databases:     MongoDB | PostgreSQL | MySQL | Firebase
-Tools:         Git | Docker | AWS | CI/CD
-Methodologies: Agile | Scrum | Test-Driven Development
-```
-
-## 💡 Services I Offer
-
-✅ **Custom Mobile App Development** - Native iOS, Android, or cross-platform React Native solutions
-
-✅ **Web Application Development** - Responsive, scalable web applications
-
-✅ **API Development & Integration** - Robust backend services and third-party integrations
-
-✅ **Technical Consulting** - Architecture design, code reviews, and technical strategy
-
-✅ **App Modernization** - Legacy code refactoring and technology upgrades
-
-## 🌟 Featured Projects
-
-### portfolio
-
-*Professional Portfolio Website*
-
-- **Tech Stack:** React.js, JavaScript, Modern UI/UX
-- **Impact:** Showcases client projects & technical expertise
-- 🔗 [https://github.com/salil1993/portfolio](https://github.com/salil1993/portfolio)
-
-### PlansAround
-
-*Event Planning & Social Platform*
-
-- **Tech Stack:** React Native, Stripe, Google Auth, Location, Notifications
-- **Impact:** End-to-end mobile event planning app
-- 🔗 [https://github.com/salil1993/PlansAround](https://github.com/salil1993/PlansAround)
-
-### BackendCRUD
-
-*RESTful API Demo*
-
-- **Tech Stack:** Node.js, Express.js, MySQL
-- **Impact:** Demonstrates API and backend skills
-- 🔗 [https://github.com/salil1993/BackendCRUD](https://github.com/salil1993/BackendCRUD)
-
-## 📊 GitHub Stats
-
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=salil1993&show_icons=true&theme=default)
-
-## 📫 Let's Connect
-
-**I'm available for consulting and freelance projects!**
-
-- 💼 LinkedIn: [linkedin.com/in/saliljha1993](https://www.linkedin.com/in/saliljha1993/)
-- 📧 Email: [saliljha1993@gmail.com](mailto:saliljha1993@gmail.com)
-- 📱 Phone/WhatsApp: +917903498207
+**Tech focus:** React Native, Android (Java/Kotlin), iOS, Node.js backends, payments, auth, and CI/CD for mobile.
 
 ---
 
-### 🤝 Why Work With Me?
+## 🔧 Tech Stack
 
-✨ **Client-Focused Approach** - Your success is my priority
-
-🎯 **Results-Driven** - Delivering solutions that meet business objectives
-
-💬 **Clear Communication** - Regular updates and transparent collaboration
-
-⚡ **Quality Code** - Clean, maintainable, and well-documented code
-
-🚀 **On-Time Delivery** - Committed to meeting deadlines and budgets
+- **Mobile:** React Native, Android (Java/Kotlin), iOS (Swift), Native modules, Push notifications
+- **Backend:** Node.js, Express, REST APIs, MySQL/PostgreSQL, Firebase
+- **Domain:** Fintech & crypto apps, authentication & KYC, in-app payments, maps & location
+- **Quality:** Jest / React Native Testing Library, unit tests, E2E flows, code review
+- **DevOps:** Git, GitHub Actions, CI/CD for mobile, Play Store / App Store delivery
 
 ---
 
-*Feel free to explore my repositories and reach out if you'd like to discuss a project or collaboration opportunity!*
+## 🎯 What I'm Looking For
+
+- Senior / Lead **React Native** or **Mobile Engineer** roles
+- Mobile **technical ownership**: architecture, code quality, mentoring, release management
+- Remote-friendly teams building **fintech, crypto or high-traffic consumer apps**
+
+---
+
+## 🌟 Selected Projects
+
+- **PlansAround** – Event planning & social app with Stripe payments, Google auth, location and notifications (React Native, Node.js).
+- **BackendCRUD** – Clean REST API service demonstrating layered Node.js + MySQL backend patterns.
+- **Portfolio** – Developer portfolio showcasing shipped client projects and mobile work.
+
+👉 Check the pinned repositories below for code, structure and READMEs.
+
+---
+
+## 🤝 Connect With Me
+
+- **LinkedIn:** [linkedin.com/in/saliljha1993](https://www.linkedin.com/in/saliljha1993/)
+- **Email:** saliljha1993@gmail.com
+
+Always open to senior/lead mobile roles, long-term freelance work and architecture discussions.
