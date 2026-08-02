@@ -1,191 +1,166 @@
-# Hi, I'm Salil.
-
 <p align="center">
-  <img src="./assets/banner.png" alt="Salil Jha - Senior Mobile Engineer" width="100%">
+  <img src="./assets/banner.png" alt="Salil Jha — Senior Mobile Engineer" width="100%">
 </p>
 
 <p align="center">
-Building mobile products since 2017 · React Native · Android · Kotlin · Node.js
+  <strong>Senior Mobile Engineer</strong><br>
+  React Native · Android · Node.js<br>
+  Building production systems since 2017
 </p>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/saliljha1993">LinkedIn</a> •
-<a href="mailto:saliljha1993@gmail.com">Email</a>
+  <a href="https://www.linkedin.com/in/saliljha1993">LinkedIn</a>
+  ·
+  <a href="mailto:saliljha1993@gmail.com">Email</a>
+  ·
+  <a href="https://github.com/salil1993">GitHub</a>
 </p>
+
+<br>
 
 ---
+
+<br>
+
+## Hello
+
+I'm Salil. I write software for phones—and for the systems those phones depend on.
+
+I started as a native Android developer in Java and Kotlin. React Native became my main tool later, not because it was fashionable, but because shipping one product across platforms stopped being optional on most teams I joined.
+
+Seven years in, I still care more about how a system holds up after release than how it looks in a demo.
+
+<br>
 
 ## About
 
-I started my career as an Android developer writing Java applications before React Native became my primary platform. Over the years I've worked on products in fintech, crypto, healthcare and consumer spaces, building everything from MVPs to applications used in production.
+Most of my work has been in fintech, crypto, healthcare, enterprise, and consumer products. Different domains, same pattern: unclear requirements, real users, and deadlines that don't wait for perfect architecture.
 
-What I enjoy most isn't writing screens—it's solving engineering problems. Designing maintainable architectures, improving app performance, simplifying complex user flows, and building systems that are easier to work on six months later than they were on day one.
+I usually own features end to end—product discussion, API shape, mobile implementation, testing, store release, and whatever breaks in the weeks after. That ownership changed how I write code. I design for the person who maintains it next, which is often me.
 
-I like owning the full development cycle. A feature doesn't end when the UI is complete; it includes API design, testing, release management, monitoring, bug fixing and continuous improvement after users start using it.
+Screens are the easy part. The interesting work is deciding where state lives, how services talk to each other, what fails gracefully, and what needs to be fast.
 
----
+<br>
 
-## What I'm Working On
+## Right now
 
-Lately my focus has been on projects where mobile applications are only one part of a larger system.
+I'm spending most of my time on systems where the mobile app is one surface among several:
 
-Some of the things I'm currently building include:
+- **Bharat Swasthya Setu** — a healthcare platform spanning doctor tools, clinic operations, patient queues, appointments, and hospital dashboards
+- **Trading platform work** — broker integrations, order flows, transaction history, and the edge cases that show up when money moves
+- **Native Android again** — Kotlin and Jetpack Compose, alongside React Native's New Architecture
 
-- A digital healthcare platform connecting patients, doctors, clinics and hospitals.
-- Trading platform features including order management, transaction history and broker integrations.
-- Modern React Native applications with scalable architecture and reusable components.
-- Backend services using Node.js for authentication, payments and business workflows.
+Outside client work I still build small backends and product experiments—mostly so I don't lose the habit of owning both sides.
 
-I'm also spending time revisiting native Android with Kotlin and Jetpack Compose while keeping up with the React Native New Architecture.
+<br>
 
----
+## How I tend to build
 
-## Selected Work
+I don't have a manifesto. A few habits have stuck:
+
+| Prefer | Over |
+| --- | --- |
+| Clear module boundaries | Clever abstractions |
+| Boring, readable code | Impressive one-liners |
+| Measuring before optimizing | Guessing at bottlenecks |
+| Fixing debt while shipping | Scheduling a rewrite later |
+| APIs that survive versioning | APIs that only work for the current screen |
+| Releases you can roll back | Releases you hope go fine |
+
+Architecture matters because messy boundaries slow teams down. Performance matters because users notice lag before they can describe it. And I write for maintainability because six months later, I'm often the one opening the file again.
+
+<br>
+
+## Selected work
 
 ### Bharat Swasthya Setu
 
-A healthcare platform designed to simplify how patients interact with clinics and hospitals.
+**Healthcare platform** · React Native · Next.js · PHP · MySQL
 
-The project includes appointment management, digital queue systems, clinic dashboards, patient records, pharmacy integration and healthcare marketplace features. The goal is to reduce paperwork while making healthcare services easier to access.
+Clinics and hospitals still run on paper queues, phone calls, and disconnected tools. This platform tries to put patients, doctors, and clinic staff on one system—appointments, digital queues, clinic management, medical marketplace, and hospital-facing dashboards.
 
-**Tech**
-
-React Native • Next.js • PHP • MySQL • REST APIs
+The hard part isn't any single feature. It's keeping roles, permissions, and workflows consistent when the same appointment means different things to a doctor, a receptionist, and a patient. I work across the mobile clients and the services behind them, with an eye on flows that won't fall apart when a clinic gets busy.
 
 ---
 
 ### PlansAround
 
-A social event planning application focused on helping users discover, organise and manage events.
+**Event planning** · React Native · Node.js · Stripe · Firebase · Maps
 
-Features include authentication, payments, location services, notifications and real-time interactions between users.
+People plan events in chat threads and spreadsheets. PlansAround turns that into a product: discover events, organize them, invite people, handle payments, and stay notified when something changes.
 
-**Tech**
-
-React Native • Node.js • Firebase • MySQL
+Engineering-wise, the interesting pieces were auth (Google), payments (Stripe), location and maps, and notification delivery—plus keeping the React Native app and Node backend aligned on the same domain model. Location and payments both fail in boring, real-world ways; most of the work was making those failures recoverable instead of confusing.
 
 ---
 
-### Trading Platform
+### Trading platform
 
-Worked on features related to trading workflows including registration, order execution, transaction history and broker integrations.
+**Fintech / crypto** · Mobile + shared business logic
 
-A large part of the work involved improving business logic, handling edge cases and maintaining consistency across mobile and web platforms.
+I worked on registration, order execution, portfolio views, transaction history, and broker integrations. Trading UIs look simple until you account for partial fills, delayed confirmations, network drops, and the requirement that the mobile app and web never disagree about an order's state.
+
+A lot of the job was tightening business logic and making edge cases explicit—especially around transaction history and broker responses that don't arrive clean or on time.
 
 ---
 
 ### BackendCRUD
 
-A personal backend project created to demonstrate clean backend architecture.
+**Node.js · Express · REST**
 
-Rather than being a simple CRUD example, it focuses on code organization, authentication, reusable services and production-ready API structure.
+A small, public backend I built to practice the parts that usually get rushed: layered architecture, auth, reusable services, and API structure you'd actually deploy. It's not a tutorial dump—it's a reference for how I like backends organized when there's no deadline forcing shortcuts.
 
----
+<br>
 
-## Technologies I Use Regularly
+## What I work with
 
-### Mobile
+Tools I use regularly:
 
-- React Native
-- Android (Java & Kotlin)
-- Swift (basic)
-- Native Modules
-- Push Notifications
-- Maps & Location
-- Deep Linking
+**Mobile**  
+React Native · Android (Java / Kotlin) · Swift · Jetpack Compose · Native Modules
 
-### Backend
+**Backend**  
+Node.js · Express · REST APIs · Firebase
 
-- Node.js
-- Express
-- REST APIs
-- Firebase
-- JWT Authentication
+**Data**  
+MySQL · PostgreSQL · SQLite
 
-### Database
+**Delivery**  
+GitHub Actions · CI/CD · Play Store / App Store releases
 
-- MySQL
-- PostgreSQL
-- SQLite
+I've also spent enough time on maps, push notifications, deep linking, and JWT auth that I treat them as product features, not checklist items.
 
-### Tools
+<br>
 
-- Git
-- GitHub Actions
-- Android Studio
-- Xcode
-- VS Code
-- Postman
+## Learning lately
 
----
+Things I'm actively digging into:
 
-## Engineering Principles
+- React Native New Architecture (Fabric / TurboModules)
+- Jetpack Compose and modern Android patterns
+- Kotlin Multiplatform where it actually reduces duplication
+- Mobile performance profiling—startup, lists, and network waterfalls
+- AI tooling in the editor—useful for speed, still needs a human reviewing the result
 
-Over time I've found myself caring less about frameworks and more about how software behaves after it's shipped.
+<br>
 
-Some ideas I try to follow in every project:
+## On this profile
 
-- Prefer simple solutions over clever ones.
-- Build systems that other developers can understand quickly.
-- Reduce technical debt while developing features, not months later.
-- Write code that is easy to maintain instead of difficult to impress.
-- Performance and user experience matter just as much as functionality.
-- Good documentation saves more time than another abstraction layer.
+A fair amount of my professional work sits behind NDAs, so what's public here is incomplete by design.
 
----
+You'll mostly find mobile apps, Node services, architecture experiments, and utilities. I'm slowly opening more of the personal work. If something looks unfinished, it probably is—I'd rather publish something real than polish a demo forever.
 
-## Outside of Client Work
+<br>
 
-I enjoy building products from scratch.
+## Contact
 
-Many of my side projects begin with a real-world problem rather than a technology choice.
+If you're hiring for senior mobile work, building a product that needs someone who can own the stack past the UI, or just want to talk through an engineering problem—reach out.
 
-Recently I've been spending time working on digital platforms focused on healthcare, local services and automation, exploring how technology can simplify everyday processes instead of adding more complexity.
+[LinkedIn](https://www.linkedin.com/in/saliljha1993) · [saliljha1993@gmail.com](mailto:saliljha1993@gmail.com)
 
----
-
-## Current Interests
-
-I'm currently learning and experimenting with:
-
-- Jetpack Compose
-- Kotlin Multiplatform
-- React Native New Architecture
-- Mobile Performance Optimization
-- AI-assisted Software Development
-- Modern Android Architecture
-
----
-
-## GitHub
-
-I'm gradually making more of my personal work public.
-
-You'll mainly find repositories around:
-
-- Mobile applications
-- Backend services
-- Product architecture
-- Experimental projects
-- Development utilities
-
-Some client work cannot be shared publicly because of confidentiality agreements, so this profile represents only a portion of what I've worked on professionally.
-
----
-
-## Let's Connect
-
-If you're building mobile products and think my experience could be useful, feel free to reach out.
-
-I'm always happy to talk about engineering, product development or interesting technical problems.
-
-- **LinkedIn:** https://www.linkedin.com/in/saliljha1993
-- **Email:** saliljha1993@gmail.com
+<br>
 
 ---
 
 <p align="center">
-
-*"Good software isn't just software that works today. It's software that's still enjoyable to work on a year from now."*
-
+  <em>Ship something you can still maintain a year later.</em>
 </p>
