@@ -1,9 +1,5 @@
-<p align="center">
-  <img src="./assets/banner.png" alt="Profile banner for mobile engineering" width="100%">
-</p>
 
 <h1 align="center">Salil Samdarshy</h1>
-
 <p align="center">
   <strong>Senior Mobile Engineer</strong><br>
   React Native · Android · Kotlin
