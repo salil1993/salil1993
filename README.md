@@ -2,39 +2,52 @@
   <img src="./assets/banner.png" alt="Profile banner for mobile engineering" width="100%">
 </p>
 
-# Salil Samdarshy
+<h1 align="center">Salil Samdarshy</h1>
 
-## Senior Mobile Engineer | React Native · Android · Kotlin
+<p align="center">
+  <strong>Senior Mobile Engineer</strong><br>
+  React Native · Android · Kotlin
+</p>
 
-My engineering focus is React Native and Android development, with experience represented in public and private project repositories. I also build the web services and product experiences that mobile applications depend on.
+<p align="center">
+  <a href="https://www.linkedin.com/in/saliljha1993/">LinkedIn</a> ·
+  <a href="https://salil1993.netlify.app">Portfolio</a> ·
+  <a href="mailto:saliljha1993@gmail.com">Email</a>
+</p>
 
-[LinkedIn](https://www.linkedin.com/in/saliljha1993/) ·
-[Portfolio](https://salil1993.netlify.app) ·
-[Email](mailto:saliljha1993@gmail.com)
+---
+
+## Profile
+
+Mobile engineer focused on building maintainable products with **React Native** and **Android (Java/Kotlin)**. I also work across the web services and APIs that support product experiences.
 
 ## Featured products
 
 ### [Bharat Seva Setu](https://bharatsevasetu.com)
 
-A local-services discovery platform for finding businesses, services, clinics, and professionals. The product includes a web experience and a consumer mobile REST API; it is presented here as a web platform, not as a native mobile app.
+Local-services discovery platform for finding businesses, services, clinics, and professionals. Includes a web experience and a consumer mobile REST API.
+
+**Platform:** Next.js · TypeScript · Prisma · MySQL
 
 ### [Bharat Swasthya Setu](https://bharatswasthyasetu.com)
 
-A healthcare coordination platform for clinic and healthcare workflows. The repository is a PHP application with MySQL-related configuration and tests. Product capabilities and operational outcomes should be described only where verified.
+Healthcare coordination platform built around clinic and healthcare workflows.
+
+**Platform:** PHP · MySQL
 
 ## Technical focus
 
-- React Native
-- Android development with Java and Kotlin
-- TypeScript and API-backed web applications
-- PHP and MySQL
+- **Mobile:** React Native · Android · Java · Kotlin
+- **Product engineering:** TypeScript · PHP · MySQL · REST APIs
 
-I am continuing to deepen my Kotlin and modern Android architecture skills, including Jetpack Compose.
+Currently deepening my skills in modern Android architecture and Jetpack Compose.
 
-## Engineering approach
+## Engineering principles
 
-I value clear module boundaries, maintainable code, thoughtful API integration, and testing that makes changes safer. My project work includes applications with domain modules, service and repository layers, API routes, and automated checks.
+- **Clear boundaries:** organize code around understandable responsibilities.
+- **Maintainability:** favor readable solutions that are practical to evolve.
+- **Reliable delivery:** use testing and automation to support safer changes.
 
-## Roles
+## Opportunities
 
-Targeting Senior Mobile Engineer, Senior React Native Developer, and Android Developer roles across India — remote, hybrid, or onsite.
+Interested in Senior Mobile Engineer, Senior React Native Developer, and Android Developer roles across India — remote, hybrid, or onsite.
